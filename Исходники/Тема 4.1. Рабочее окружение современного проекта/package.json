@@ -1,23 +1,35 @@
 {
-  "name": "any-project-name",
+  "name": "rpg-game",
   "version": "1.0.0",
-  "description": "бла бла бла",
+  "description": "Training project for an RPG game with Babel and ESLint",
   "main": "index.js",
   "scripts": {
     "start": "live-server src",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "lint": "eslint .",
     "build": "babel src -d dist"
   },
-  "author": "mr and mrs smith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovachebr/bhebdps-ojs.git"
+  },
+  "keywords": [
+    "rpg",
+    "game",
+    "babel",
+    "eslint"
+  ],
+  "author": "Student",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
-    "@eslint/js": "^9.4.0",
-    "eslint": "^9.4.0",
+    "@eslint/eslintrc": "^2.1.4",
+    "@eslint/js": "^8.57.1",
+    "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "globals": "^15.4.0",
     "live-server": "^1.2.2"
   },
